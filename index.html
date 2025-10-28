@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Мой первый сайт на GitHub</title>
+    <title>Мои игры</title>
+    <style>
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .game-card {
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .game-card:hover {
+            transform: scale(1.05);
+        }
+        .game-images {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+        }
+        .game-images img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Привет, мир!</h1>
-    <p>Это моя первая веб-страница, размещенная на GitHub Pages.</p>
+    <h1>🎮 Мои Игры</h1>
+    
+    <div id="games-container" class="games-grid">
+        <!-- Карточки появятся здесь автоматически -->
+    </div>
+
+    <script src="games-data.js"></script>
+    <script src="render-games.js"></script>
 </body>
 </html>
