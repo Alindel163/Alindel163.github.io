@@ -19,11 +19,13 @@ h1 {
 }
 
 .game-card {
+    display: flex;           /* Включаем flexbox */
+    align-items: center;     /* Выравниваем по вертикали */
+    gap: 15px;              /* Расстояние между картинкой и текстом */
     background: #f9f9f9;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 15px;
-    text-align: center;
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -35,20 +37,24 @@ h1 {
 }
 
 .game-card h3 {
-    margin: 0 0 10px 0;
+    margin: 0 0 5px 0;
     color: #333;
 }
 
+
 .game-card p {
+    margin: 0 0 5px 0;
     color: #666;
-    margin: 0;
 }
 .game-image {
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
+    width: 80px;           /* Фиксированная ширина для картинки */
+    height: 80px;          /* Фиксированная высота */
+    object-fit: cover;     /* Чтобы картинка не искажалась */
     border-radius: 8px;
-    margin-bottom: 10px;
+    flex-shrink: 0;        /* Не даем картинке сжиматься */
+}
+.game-content {
+    flex: 1;               /* Текст занимает все оставшееся пространство */
 }
 
 .game-card {
