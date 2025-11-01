@@ -16,10 +16,10 @@ function createGameCard(game) {
         <div class="game-card" onclick="window.location.href='${game.gameUrl}'">
             <img src="${game.image}" alt="${game.title}" class="game-image">
             <div class="game-content">
-                <h3>${game.title}</h3>
-                <h3>${game.control}</h3>
-                <p>${game.description}</p>
-                <p>${game.author}</p>
+                <h3>Название: ${game.title}</h3>
+                <h3>Управление: <br>${game.control}</h3>
+                <p>Описание:${game.description}</p>
+                <p>Автор: ${game.author}</p>
                 <p><strong>Нажмите чтобы играть!</strong></p>
             </div>
         </div>
