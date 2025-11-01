@@ -10,9 +10,9 @@ const games = [
     {
         title: "Примитивный шутер. Шаблон для творческих проектов №1",
         description: "Стреляйте в капсулы, ищите аптечки!",
-        control: "WSAD, мышка, пробел, E(англ)",
+        control: "WSAD, мышка, пробел, E(англ), ESC",
         gameUrl: "games/shooterWeb/index.html",
-        image: "games/test-game/logo-helicopter.jpg",
+        image: "games/shooterWeb/logo-shooter.jpg",
         author: "Александров П.В. преподаватель центра"
     }
 ];
