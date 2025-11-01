@@ -61,11 +61,10 @@ h1 {
     color: #666;
 }
 .game-image {
-    width: 15%; /* 25% от ширины карточки */
-    height: auto; /* Сохраняем пропорции */
-    aspect-ratio: 1 / 1; /* Делаем квадратную */
+    width: 40%; /* Занимает 40% ширины карточки */
+    aspect-ratio: 4/3; /* Формат 4:3 */
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 6px;
     flex-shrink: 0;
 }
 .game-content {
