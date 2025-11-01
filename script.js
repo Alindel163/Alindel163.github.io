@@ -1,8 +1,10 @@
 const games = [
     {
-        title: "Вертолётик",
-        description: "Стреляйте в вражеские корабли!",
+        title: "Вертолётик. Шаблон для творческих проектов №1",
+        description: "Стреляйте в вражеские вертолёты!",
         gameUrl: "games/test-game/helicopter.html"
+        image: "games/test-game/logo-helicopter.jpg"
+        author: "Александров П.В.";
     }
 ];
 
@@ -11,8 +13,10 @@ function createGameCard(game) {
     console.log('Создаем карточку для:', game.title); // для отладки
     return `
         <div class="game-card" onclick="window.location.href='${game.gameUrl}'">
+            <img src="${game.image}" alt="${game.title}" class="game-image">
             <h3>${game.title}</h3>
             <p>${game.description}</p>
+            <p>${game.author}</p>
             <p><strong>Нажмите чтобы играть!</strong></p>
         </div>
     `;
