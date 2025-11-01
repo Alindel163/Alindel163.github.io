@@ -2,8 +2,8 @@ const games = [
     {
         title: "Вертолётик. Шаблон для творческих проектов №1",
         description: "Стреляйте в вражеские вертолёты!",
-        gameUrl: "games/test-game/helicopter.html"
-        image: "games/test-game/logo-helicopter.jpg"
+        gameUrl: "games/test-game/helicopter.html",
+        image: "games/test-game/logo-helicopter.jpg",
         author: "Александров П.В.";
     }
 ];
