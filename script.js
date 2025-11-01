@@ -2,7 +2,7 @@ const games = [
     {
         title: "Вертолётик. Шаблон для творческих проектов №1",
         description: "Стреляйте в вражеские вертолёты!",
-        control: "\nперемещение: стрелки, \nстрельба: кнопка мыши, \nприцеливание: двигайте мышь",
+        control: "<br>перемещение: стрелки, <br>стрельба: кнопка мыши, <br>прицеливание: двигайте мышь<br>",
         gameUrl: "games/test-game/helicopter.html",
         image: "games/test-game/logo-helicopter.jpg",
         author: "Александров П.В."
