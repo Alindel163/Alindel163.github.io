@@ -1,3 +1,4 @@
+javascript
 // Данные об играх
 const games = [
     {
