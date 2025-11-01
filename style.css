@@ -47,7 +47,7 @@ h1 {
     color: #666;
 }
 .game-image {
-    width: 25%; /* 25% от ширины карточки */
+    width: 15%; /* 25% от ширины карточки */
     height: auto; /* Сохраняем пропорции */
     aspect-ratio: 1 / 1; /* Делаем квадратную */
     object-fit: cover;
