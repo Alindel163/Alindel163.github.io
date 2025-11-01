@@ -4,7 +4,7 @@ const games = [
         description: "Стреляйте в вражеские вертолёты!",
         gameUrl: "games/test-game/helicopter.html",
         image: "games/test-game/logo-helicopter.jpg",
-        author: "Александров П.В.";
+        author: "Александров П.В."
     }
 ];
 
