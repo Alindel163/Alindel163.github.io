@@ -14,10 +14,11 @@ function createGameCard(game) {
     return `
         <div class="game-card" onclick="window.location.href='${game.gameUrl}'">
             <img src="${game.image}" alt="${game.title}" class="game-image">
-            <h3>${game.title}</h3>
-            <p>${game.description}</p>
-            <p>${game.author}</p>
-            <p><strong>Нажмите чтобы играть!</strong></p>
+            <div class="game-content">
+                <h3>${game.title}</h3>
+                <p>${game.description}</p>
+                <p><strong>Нажмите чтобы играть!</strong></p>
+            </div>
         </div>
     `;
 }
