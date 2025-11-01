@@ -6,6 +6,14 @@ const games = [
         gameUrl: "games/test-game/helicopter.html",
         image: "games/test-game/logo-helicopter.jpg",
         author: "Александров П.В. преподаватель центра"
+    },
+    {
+        title: "Примитивный шутер. Шаблон для творческих проектов №1",
+        description: "Стреляйте в капсулы, ищите аптечки!",
+        control: "WSAD, мышка, пробел, E(англ)",
+        gameUrl: "games/shooterWeb/index.html",
+        image: "games/test-game/logo-helicopter.jpg",
+        author: "Александров П.В. преподаватель центра"
     }
 ];
 
