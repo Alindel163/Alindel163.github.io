@@ -2,19 +2,9 @@ javascript
 // Данные об играх
 const games = [
     {
-        title: "Космический стрелок",
+        title: "Вертолётик",
         description: "Стреляйте в вражеские корабли!",
-        gameUrl: "games/space-shooter/index.html"
-    },
-    {
-        title: "Лабиринт", 
-        description: "Найдите выход из лабиринта",
-        gameUrl: "games/maze/index.html"
-    },
-    {
-        title: "Платформер",
-        description: "Прыгайте по платформам",
-        gameUrl: "games/platformer/index.html"
+        gameUrl: "games/test-game/helicopter.html"
     }
 ];
 
