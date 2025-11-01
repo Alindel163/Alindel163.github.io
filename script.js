@@ -5,7 +5,7 @@ const games = [
         control: "<br>перемещение: стрелки, <br>стрельба: кнопка мыши, <br>прицеливание: двигайте мышь<br>",
         gameUrl: "games/test-game/helicopter.html",
         image: "games/test-game/logo-helicopter.jpg",
-        author: "Александров П.В."
+        author: "Александров П.В. преподаватель центра"
     }
 ];
 
@@ -19,6 +19,7 @@ function createGameCard(game) {
                 <h3>${game.title}</h3>
                 <h3>${game.control}</h3>
                 <p>${game.description}</p>
+                <p>${game.author}</p>
                 <p><strong>Нажмите чтобы играть!</strong></p>
             </div>
         </div>
