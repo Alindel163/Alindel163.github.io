@@ -47,11 +47,12 @@ h1 {
     color: #666;
 }
 .game-image {
-    width: 80px;           /* Фиксированная ширина для картинки */
-    height: 80px;          /* Фиксированная высота */
-    object-fit: cover;     /* Чтобы картинка не искажалась */
+    width: 25%; /* 25% от ширины карточки */
+    height: auto; /* Сохраняем пропорции */
+    aspect-ratio: 1 / 1; /* Делаем квадратную */
+    object-fit: cover;
     border-radius: 8px;
-    flex-shrink: 0;        /* Не даем картинке сжиматься */
+    flex-shrink: 0;
 }
 .game-content {
     flex: 1;               /* Текст занимает все оставшееся пространство */
